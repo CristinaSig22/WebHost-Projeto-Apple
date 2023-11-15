@@ -166,6 +166,7 @@ nav{
     margin-right: auto;
     margin-bottom: -50px;
 }
+
 .plano .nome-plano{
     text-transform: uppercase;
     font-size: 20px;
@@ -186,4 +187,87 @@ nav{
 }
 .plano .recomendado{
     background-color: #F56A4C;
+}
+.plano .cloud{
+    background-color: #B73DF0;
+}
+.plano .dedicado{
+    background-color: #D7FA00;
+}
+.buscar-dominio{
+    background-color: #000000;
+    text-align: center;
+    padding: 5em 0;
+}
+.buscar-dominio h2{
+    color: #FAFAFA;
+    font-size: 36px;
+    padding-bottom: 50px;
+    margin-bottom: -40px;
+}
+.buscar-dominio p{
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.buscar-dominio input{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.buscar-dominio input[type="text"]{
+    margin-bottom: 25px;
+    width: 60%;
+    padding: 20px;
+    font-size: 20px;
+}
+.buscar-dominio input[type="submit"]{
+    background-color: #2BDB0F;
+    padding: 15px 30px;
+    font-size: 24px;
+    border-radius: 34px;
+    color: #FFFFFF;
+}
+.contato-container{
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+.contato-container h2{
+    font-size: 36px;
+}
+.contato-container p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.contato-container input, .contato-container textarea{
+    width: 220px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.contato-container textarea{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
 }

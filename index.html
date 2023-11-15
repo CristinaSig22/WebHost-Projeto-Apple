@@ -12,8 +12,8 @@
             <a href="#"><img src= "assets/img/logo.png" alt="logotipo" class="logo" id ="home"></a>
             <ul class="navbar-itens">
                 <li><a href="#">HOME</a></li>
-                <li><a href="#">PLANOS</a></li>
-                <li><a href="#">CONTATO</a></li>
+                <li><a href="#planos">PLANOS</a></li>
+                <li><a href="#contato">CONTATO</a></li>
                 <li><a href="#" class="default-btn">LOGIN</a></li>
             </ul>
         </nav>
@@ -60,14 +60,14 @@
         
         <div class="plano">
             <ul>
-                <li class="preco">R$80,00</li>
+                <li class="preco dedicado">R$80,00</li>
                 <li class="nome-plano">Dedicado</li>
                 <li>5gb de armazenamento</li>
                 <li>20 subdominios</li>
                 <li>50 contas de e-mails</li>
                 <li>C-Panel</li>
                 <li>Suporte 24/7</li>
-                <li class="btn-plano">Selecionar</li>
+                <li class="btn-plano dedicado">Selecionar</li>
                 
             </ul>
         </div>
@@ -88,20 +88,42 @@
         
         <div class="plano">
             <ul>
-                <li class="preco">R$150,00</li>
+                <li class="preco cloud">R$150,00</li>
                 <li class="nome-plano">Cloud</li>
                 <li>20gb de armazenamento</li>
                 <li>200 subdominios</li>
                 <li>200 contas de e-mails</li>
                 <li>C-Panel</li>
                 <li>Suporte 24/7</li>
-                <li class="btn-plano">Selecionar</li>
+                <li class="btn-plano cloud">Selecionar</li>
                 
             </ul>
         </div>
     </div>
-    <i class="fas fa-circle-up 2x" ></i>
+    <a href ="#home"><i class="fas fa-circle-up 2x" ></i></a>
 </section>
+<section class="buscar-dominio">
+    <h2>Buscar um Dominio</h2>
+    <p>Veja se o dominio que você deseja está disponível</p>
+    <form action="">
+        <input type="text" placeholder="Digite seu dominio desejado">
+        <input type="submit" value="Buscar Dominio">
+    </form>
+</section>
+<section class="contato-container">
+    <h2 id="contato">Entre em contato</h2>
+    <p>Entre em contato para avaliarmos sua melhor hospedagem</p>
+    <form action="">
+        <input type="text" name="Name" placeholder="Digite seu nome">
+        <input type="email" name="E-mail" placeholder="Digite seu e-mail">
+        <textarea name="Message" placeholder="Digite sua mensagem"></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+    <a href ="#home"><i class="fas fa-circle-up 2x" ></i></a>
+</section>
+<footer>
+    <p>Curso de criação de páginas WEB Senai 2023</p>
+</footer>
 
     <script src="https://kit.fontawesome.com/2692ba69d0.js" crossorigin="anonymous"></script>
 </body>
